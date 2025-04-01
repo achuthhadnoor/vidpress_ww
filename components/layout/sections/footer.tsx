@@ -89,7 +89,7 @@ export const FooterSection = () => {
         <Separator className="my-6" />
         <section className="">
           <h3 className="">
-            &copy; 2024 VidPress - Powered by FFmpeg. Built by
+            &copy; 2024 VidPress. Built by
             <Link
               target="_blank"
               href="https://github.com/achuthhadnoor"

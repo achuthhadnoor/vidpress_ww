@@ -84,7 +84,7 @@ export const TestimonialSection = () => {
         </h2>
 
         <h2 className="text-3xl md:text-4xl text-center font-bold mb-4">
-          Hear What Our 1000+ Clients Say
+          Trusted by Video Editors Worldwide
         </h2>
       </div>
 
@@ -116,10 +116,10 @@ export const TestimonialSection = () => {
                   <div className="flex flex-row items-center gap-4">
                     <Avatar>
                       <AvatarImage
-                        src="https://avatars.githubusercontent.com/u/75042455?v=4"
-                        alt="radix"
+                        src={review.image}
+                        alt={review.name}
                       />
-                      <AvatarFallback>SV</AvatarFallback>
+                      <AvatarFallback>{review.name.substring(0, 2)}</AvatarFallback>
                     </Avatar>
 
                     <div className="flex flex-col">
