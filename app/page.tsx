@@ -12,29 +12,29 @@ import { TeamSection } from "@/components/layout/sections/team";
 import { TestimonialSection } from "@/components/layout/sections/testimonial";
 
 export const metadata = {
-  title: "Shadcn - Landing template",
-  description: "Free Shadcn landing page for developers",
+  title: "VidPress - Offline Video Compression",
+  description: "Fast, offline video compression powered by FFmpeg",
   openGraph: {
     type: "website",
-    url: "https://github.com/nobruf/shadcn-landing-page.git",
-    title: "Shadcn - Landing template",
-    description: "Free Shadcn landing page for developers",
+    url: "https://vidpress.achuth.dev",
+    title: "VidPress - Offline Video Compression",
+    description: "Fast, offline video compression powered by FFmpeg. Try it free.",
     images: [
       {
-        url: "https://res.cloudinary.com/dbzv9xfjp/image/upload/v1723499276/og-images/shadcn-vue.jpg",
+        url: "https://vidpress.achuth.dev/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Shadcn - Landing template",
+        alt: "VidPress - Offline Video Compression App",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    site: "https://github.com/nobruf/shadcn-landing-page.git",
-    title: "Shadcn - Landing template",
-    description: "Free Shadcn landing page for developers",
+    site: "https://vidpress.io",
+    title: "VidPress - Offline Video Compression",
+    description: "Fast, offline video compression powered by FFmpeg. Try it free.",
     images: [
-      "https://res.cloudinary.com/dbzv9xfjp/image/upload/v1723499276/og-images/shadcn-vue.jpg",
+      "https://vidpress.io/og-image.jpg"
     ],
   },
 };
