@@ -1,0 +1,159 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* *=========== Default theme =========== */
+/* @layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 240 10% 3.9%;
+
+    --muted: 240 4.8% 95.9%;
+    --muted-foreground: 240 3.8% 46.1%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 240 10% 3.9%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 240 10% 3.9%;
+
+    --border: 240 5.9% 90%;
+    --input: 240 5.9% 90%;
+
+    --primary: 240 5.9% 10%;
+    --primary-foreground: 0 0% 98%;
+
+    --secondary: 240 4.8% 95.9%;
+    --secondary-foreground: 240 5.9% 10%;
+
+    --accent: 240 4.8% 95.9%;
+    --accent-foreground: 240 5.9% 10%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+
+    --ring: 240 10% 3.9%;
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 240 10% 3.9%;
+    --foreground: 0 0% 98%;
+
+    --muted: 240 3.7% 15.9%;
+    --muted-foreground: 240 5% 64.9%;
+
+    --popover: 240 10% 3.9%;
+    --popover-foreground: 0 0% 98%;
+
+    --card: 240 10% 3.9%;
+    --card-foreground: 0 0% 98%;
+
+    --border: 240 3.7% 15.9%;
+    --input: 240 3.7% 15.9%;
+
+    --primary: 0 0% 98%;
+    --primary-foreground: 240 5.9% 10%;
+
+    --secondary: 240 3.7% 15.9%;
+    --secondary-foreground: 0 0% 98%;
+
+    --accent: 240 3.7% 15.9%;
+    --accent-foreground: 0 0% 98%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+
+    --ring: 240 4.9% 83.9%;
+  }
+} */
+
+/* *=========== indigo theme =========== */
+@layer base {
+  :root {
+    /* Light Mode */
+    --background: 0 0% 100%;
+    --foreground: 210 14.3% 4.1%; /* Indigo-based text color */
+
+    --card: 0 0% 100%;
+    --card-foreground: 210 14.3% 4.1%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 210 14.3% 4.1%;
+
+    /* Primary Indigo color */
+    --primary: 215 80% 53%; /* Indigo primary color */
+    --primary-foreground: 60 9.1% 97.8%; /* Light foreground on primary color */
+
+    --secondary: 210 10% 90%; /* Lighter indigo for secondary elements */
+    --secondary-foreground: 215 9.8% 10%; /* Darker text for secondary */
+
+    --muted: 210 8% 85%; /* Muted indigo */
+    --muted-foreground: 210 5.3% 40%; /* Muted foreground text */
+
+    --accent: 210 6% 85%; /* Lighter accent color */
+    --accent-foreground: 215 15% 10%; /* Darker accent foreground text */
+
+    --destructive: 0 84.2% 60.2%; /* Red for destructive */
+    --destructive-foreground: 60 9.1% 97.8%;
+
+    --border: 210 5.9% 90%;
+    --input: 210 5.9% 90%;
+    --ring: 215 90% 53%; /* Accent ring color */
+    --radius: 0.5rem; /* Rounded corners */
+  }
+
+  /* Dark Mode */
+  .dark {
+    --background: 20 14.3% 4.1%; /* Dark background */
+    --foreground: 60 9.1% 97.8%; /* Light text on dark background */
+
+    --card: 215 9.8% 8%; /* Dark indigo card background */
+    --card-foreground: 0 0% 95%; /* Light card foreground text */
+
+    --popover: 20 14.3% 4.1%; /* Popover background dark */
+    --popover-foreground: 60 9.1% 97.8%; /* Popover foreground light */
+
+    --primary: 215 90.2% 48.2%; /* Indigo primary color for dark mode */
+    --primary-foreground: 60 9.1% 97.8%; /* Light text on primary */
+
+    --secondary: 210 10% 30%; /* Darker secondary indigo */
+    --secondary-foreground: 60 9.1% 97.8%;
+
+    --muted: 210 8% 30%; /* Darker muted indigo */
+    --muted-foreground: 215 5.4% 63.9%;
+
+    --accent: 210 8% 30%; /* Darker accent */
+    --accent-foreground: 215 9.1% 97.8%; /* Light accent foreground */
+
+    --destructive: 0 72.2% 50.6%; /* Red for destructive actions */
+    --destructive-foreground: 60 9.1% 97.8%;
+
+    --border: 210 10% 20%; /* Dark border color */
+    --input: 210 10% 20%;
+    --ring: 215 90.2% 48.2%; /* Ring accent for focus in dark mode */
+  }
+}
+
+.shadow-light {
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.085);
+}
+
+.shadow-dark {
+  box-shadow: inset 0 0 5px rgba(255, 255, 255, 0.141);
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
