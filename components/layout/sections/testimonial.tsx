@@ -28,50 +28,49 @@ const reviewList: ReviewProps[] = [
   {
     image: "https://github.com/shadcn.png",
     name: "John Doe",
-    userName: "Product Manager",
+    userName: "Content Creator",
     comment:
-      "Wow NextJs + Shadcn is awesome!. This template lets me change colors, fonts and images to match my brand identity. ",
+      "VidPress has been a game-changer for my content workflow. The video compression is incredibly fast while maintaining great quality. Saves me so much storage space!",
     rating: 5.0,
   },
   {
     image: "https://github.com/shadcn.png",
     name: "Sophia Collins",
-    userName: "Cybersecurity Analyst",
+    userName: "YouTuber",
     comment:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. ",
+      "I compress hundreds of videos weekly for my channel, and VidPress makes it so simple. The batch processing feature is a huge time-saver. Highly recommended!",
     rating: 4.8,
   },
-
   {
     image: "https://github.com/shadcn.png",
     name: "Adam Johnson",
-    userName: "Chief Technology Officer",
+    userName: "Social Media Manager",
     comment:
-      "Lorem ipsum dolor sit amet,exercitation. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "The ability to compress videos while keeping them looking professional is crucial for our social media content. VidPress delivers exactly what we need.",
     rating: 4.9,
   },
   {
     image: "https://github.com/shadcn.png",
     name: "Ethan Parker",
-    userName: "Data Scientist",
+    userName: "Video Editor",
     comment:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod labore et dolore magna aliqua. Ut enim ad minim veniam.",
+      "VidPress's compression algorithms are impressive. I can quickly optimize videos for different platforms without compromising on quality. Perfect for my workflow.",
     rating: 5.0,
   },
   {
     image: "https://github.com/shadcn.png",
     name: "Ava Mitchell",
-    userName: "IT Project Manager",
+    userName: "Digital Marketing Lead",
     comment:
-      "Lorem ipsum dolor sit amet, tempor incididunt  aliqua. Ut enim ad minim veniam, quis nostrud incididunt consectetur adipiscing elit.",
+      "We use VidPress daily for our marketing campaigns. The fast processing and consistent quality have made video content management so much easier.",
     rating: 5.0,
   },
   {
     image: "https://github.com/shadcn.png",
     name: "Isabella Reed",
-    userName: "DevOps Engineer",
+    userName: "Independent Filmmaker",
     comment:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "As someone who works with large video files constantly, VidPress has become an essential tool. The compression quality is outstanding, and the interface is intuitive.",
     rating: 4.9,
   },
 ];

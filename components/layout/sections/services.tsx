@@ -17,25 +17,25 @@ interface ServiceProps {
 }
 const serviceList: ServiceProps[] = [
   {
-    title: "Custom Domain Integration",
+    title: "Video Compression",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit adipisicing.",
+      "Efficiently compress your videos while maintaining quality, reducing file size up to 90%.",
     pro: 0,
   },
   {
-    title: "Social Media Integrations",
+    title: "Batch Processing(soon)",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae, dicta.",
+      "Process multiple videos simultaneously, saving you time and effort.",
     pro: 0,
   },
   {
-    title: "Email Marketing Integrations",
-    description: "Lorem dolor sit amet adipisicing.",
+    title: "Custom Export Settings(soon)",
+    description: "Choose your preferred format, resolution, and quality settings.",
     pro: 0,
   },
   {
-    title: "SEO Optimization",
-    description: "Lorem ipsum dolor sit amet consectetur.",
+    title: "Advanced Encoding Options",
+    description: "Access professional encoding features and codec optimization.",
     pro: 1,
   },
 ];

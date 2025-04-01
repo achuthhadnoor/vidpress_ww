@@ -13,33 +13,36 @@ interface FAQProps {
 
 const FAQList: FAQProps[] = [
   {
-    question: "Is this template free?",
-    answer: "Yes. It is a free NextJS Shadcn template.",
+    question: "What is VidPress Desktop?",
+    answer: "VidPress Desktop is a video compression app that uses FFmpeg under the hood. It provides a simple interface for compressing videos while maintaining good quality.",
     value: "item-1",
   },
   {
-    question: "Duis aute irure dolor in reprehenderit in voluptate velit?",
+    question: "How does VidPress compress videos?",
     answer:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint labore quidem quam consectetur sapiente, iste rerum reiciendis animi nihil nostrum sit quo, modi quod.",
+      "VidPress uses FFmpeg's advanced compression algorithms to optimize your videos. It automatically selects the best compression settings while allowing you to customize quality and size targets.",
     value: "item-2",
   },
   {
-    question:
-      "Lorem ipsum dolor sit amet Consectetur natus dolor minus quibusdam?",
+    question: "Is it completely offline?",
     answer:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore qui nostrum reiciendis veritatis.",
+      "Yes! VidPress is a desktop application that works 100% offline. All video processing happens locally on your computer using FFmpeg, with no data ever leaving your device.",
     value: "item-3",
   },
   {
-    question: "Excepteur sint occaecat cupidata non proident sunt?",
-    answer: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+    question: "Is there a free trial?",
+    answer: "Yes! VidPress offers a free trial that lets you compress up to 5 videos. After that, you can purchase a license to compress unlimited videos.",
     value: "item-4",
   },
   {
-    question:
-      "Enim ad minim veniam, quis nostrud exercitation ullamco laboris?",
-    answer: "consectetur adipisicing elit. Sint labore.",
+    question: "What video formats can I compress?",
+    answer: "VidPress supports all video formats that FFmpeg can handle, including MP4, MOV, AVI, MKV, WebM and many more. You can compress videos of any size or duration.",
     value: "item-5",
+  },
+  {
+    question: "How fast is the compression?",
+    answer: "Compression speed depends on your computer's CPU/GPU and the video size. VidPress uses FFmpeg's hardware acceleration when available to provide the fastest possible compression.",
+    value: "item-6",
   },
 ];
 

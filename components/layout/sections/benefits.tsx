@@ -7,31 +7,30 @@ interface BenefitsProps {
   title: string;
   description: string;
 }
-
 const benefitList: BenefitsProps[] = [
   {
     icon: "Blocks",
-    title: "Build Brand Trust",
+    title: "Optimized Storage",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam. Natus consectetur dolores.",
+      "Reduce your video file sizes without compromising quality. Free up valuable storage space while maintaining professional standards.",
   },
   {
     icon: "LineChart",
-    title: "More Leads",
+    title: "Faster Uploads",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam, natus consectetur.",
+      "Speed up your content delivery with smaller file sizes. Save time and bandwidth while sharing videos across platforms.",
   },
   {
     icon: "Wallet",
-    title: "Higher Conversions",
+    title: "Cost Effective",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus consectetur. A odio velit cum aliquam",
+      "Minimize storage costs and bandwidth usage. Our efficient compression helps you save on cloud storage and hosting expenses.",
   },
   {
     icon: "Sparkle",
-    title: "Test Marketing Ideas",
+    title: "Quality Preserved",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam. Natus consectetur dolores.",
+      "Smart compression algorithms maintain visual quality while significantly reducing file size. Your videos stay crisp and professional.",
   },
 ];
 

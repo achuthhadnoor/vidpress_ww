@@ -25,55 +25,55 @@ interface PlanProps {
 
 const plans: PlanProps[] = [
   {
-    title: "Free",
+    title: "Free Trial",
     popular: 0,
     price: 0,
     description:
-      "Lorem ipsum dolor sit, amet ipsum consectetur adipisicing elit.",
+      "Try our offline video compression app with basic features for 7 days.",
     buttonText: "Start Free Trial",
     benefitList: [
-      "1 team member",
-      "1 GB storage",
-      "Upto 2 pages",
+      "7-day full feature access",
+      "Unlimited compressions",
+      "1080p output quality",
+      "Basic compression presets",
       "Community support",
-      "AI assistance",
     ],
   },
   {
-    title: "Premium",
+    title: "Pro",
     popular: 1,
-    price: 45,
+    price: 9,
     description:
-      "Lorem ipsum dolor sit, amet ipsum consectetur adipisicing elit.",
-    buttonText: "Get starterd",
+      "Unlock full potential with advanced compression features powered by FFmpeg.",
+    buttonText: "Buy Pro License",
     benefitList: [
-      "4 team member",
-      "8 GB storage",
-      "Upto 6 pages",
-      "Priority support",
-      "AI assistance",
+      "Lifetime license",
+      "4K quality processing",
+      "Advanced FFmpeg presets",
+      "Batch processing(soon)",
+      "Email support",
     ],
   },
   {
-    title: "Enterprise",
+    title: "lifetime",
     popular: 0,
-    price: 120,
+    price: 69,
     description:
-      "Lorem ipsum dolor sit, amet ipsum consectetur adipisicing elit.",
-    buttonText: "Contact US",
+      "Custom solutions for teams needing high-volume video processing.",
+    buttonText: "Contact Sales",
     benefitList: [
-      "10 team member",
-      "20 GB storage",
-      "Upto 10 pages",
-      "Phone & email support",
-      "AI assistance",
+      "All Pro features",
+      "8K video support",
+      "Custom FFmpeg parameters",
+      "Volume licensing",
+      "Priority support",
     ],
   },
 ];
 
 export const PricingSection = () => {
   return (
-    <section className="container py-24 sm:py-32">
+    <section className="container py-24 sm:py-32" id="pricing">
       <h2 className="text-lg text-primary text-center mb-2 tracking-wider">
         Pricing
       </h2>
@@ -106,7 +106,7 @@ export const PricingSection = () => {
 
                 <div>
                   <span className="text-3xl font-bold">${price}</span>
-                  <span className="text-muted-foreground"> /month</span>
+                  {/* <span className="text-muted-foreground"></span> */}
                 </div>
               </CardHeader>
 

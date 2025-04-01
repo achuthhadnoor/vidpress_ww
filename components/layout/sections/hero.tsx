@@ -10,8 +10,8 @@ export const HeroSection = () => {
   const { theme } = useTheme();
   return (
     <section className="container w-full">
-      <div className="grid place-items-center lg:max-w-screen-xl gap-8 mx-auto py-20 md:py-32">
-        <div className="text-center space-y-8">
+      <div className="place-items-start lg:max-w-screen-xl gap-8 mx-auto py-20 md:py-32">
+        <div className=" space-y-8">
           <Badge variant="outline" className="text-sm py-2">
             <span className="mr-2 text-primary">
               <Badge>New</Badge>
@@ -19,37 +19,36 @@ export const HeroSection = () => {
             <span> Vidpress is out now! </span>
           </Badge>
 
-          <div className="max-w-screen-md mx-auto text-center text-4xl md:text-6xl font-bold">
+          <div className="max-w-screen-md mx-auto  text-4xl md:text-6xl font-bold">
             <h1>
-              Experience the
+              Compress
               <span className="text-transparent px-2 bg-gradient-to-r from-[#D247BF] to-primary bg-clip-text">
-                Shadcn
+                videos
               </span>
-              landing page
+              upto 90% offline.
             </h1>
           </div>
 
-          <p className="max-w-screen-sm mx-auto text-xl text-muted-foreground">
-            {`We're more than just a tool, we're a community of passionate
-            creators. Get access to exclusive resources, tutorials, and support.`}
+          <p className="max-w-screen-sm text-xl text-muted-foreground">
+            {`VidPress makes video compression fast and easy without sacrificing quality. Compress videos for faster uploads, better storage, and smooth streaming.`}
           </p>
 
           <div className="space-y-4 md:space-y-0 md:space-x-4">
             <Button className="w-5/6 md:w-1/4 font-bold group/arrow">
-              Get Started
+              Download for macOs 13+
               <ArrowRight className="size-5 ml-2 group-hover/arrow:translate-x-1 transition-transform" />
             </Button>
 
             <Button
               asChild
-              variant="secondary"
-              className="w-5/6 md:w-1/4 font-bold"
+              variant="outline"
+              className="w-5/6 md:w-1/4 font-bold "
             >
               <Link
                 href="https://github.com/nobruf/shadcn-landing-page.git"
                 target="_blank"
               >
-                Github respository
+                Download trail
               </Link>
             </Button>
           </div>
@@ -63,8 +62,8 @@ export const HeroSection = () => {
             className="w-full md:w-[1200px] mx-auto rounded-lg relative rouded-lg leading-none flex items-center border border-t-2 border-secondary  border-t-primary/30"
             src={
               theme === "light"
-                ? "/hero-image-light.jpeg"
-                : "/hero-image-dark.jpeg"
+                ? "/lite.png"
+                : "/dark.png"
             }
             alt="dashboard"
           />

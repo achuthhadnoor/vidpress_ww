@@ -77,34 +77,34 @@ html {
 @layer base {
   :root {
     /* Light Mode */
-    --background: 0 0% 100%;
-    --foreground: 210 14.3% 4.1%; /* Indigo-based text color */
+    --background: 240 100% 97%; /* Light indigo background */
+    --foreground: 240 20% 13%; /* Dark indigo text color */
 
-    --card: 0 0% 100%;
-    --card-foreground: 210 14.3% 4.1%;
+    --card: 240 100% 98%; /* Light card background */
+    --card-foreground: 240 20% 13%; /* Dark indigo text on cards */
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 210 14.3% 4.1%;
+    --popover: 240 100% 98%; /* Light popover background */
+    --popover-foreground: 240 20% 13%; /* Dark text on popovers */
 
     /* Primary Indigo color */
-    --primary: 215 80% 53%; /* Indigo primary color */
-    --primary-foreground: 60 9.1% 97.8%; /* Light foreground on primary color */
+    --primary: 240 70% 50%; /* Indigo primary color */
+    --primary-foreground: 240 100% 97%; /* Light text on primary color */
 
-    --secondary: 210 10% 90%; /* Lighter indigo for secondary elements */
-    --secondary-foreground: 215 9.8% 10%; /* Darker text for secondary */
+    --secondary: 240 60% 80%; /* Lighter indigo for secondary elements */
+    --secondary-foreground: 240 10% 30%; /* Darker text for secondary */
 
-    --muted: 210 8% 85%; /* Muted indigo */
-    --muted-foreground: 210 5.3% 40%; /* Muted foreground text */
+    --muted: 240 25% 85%; /* Muted indigo */
+    --muted-foreground: 240 20% 30%; /* Muted text color */
 
-    --accent: 210 6% 85%; /* Lighter accent color */
-    --accent-foreground: 215 15% 10%; /* Darker accent foreground text */
+    --accent: 240 60% 60%; /* Accent indigo */
+    --accent-foreground: 240 100% 97%; /* Light text on accent color */
 
-    --destructive: 0 84.2% 60.2%; /* Red for destructive */
-    --destructive-foreground: 60 9.1% 97.8%;
+    --destructive: 0 80% 60%; /* Red for destructive actions */
+    --destructive-foreground: 240 100% 97%;
 
-    --border: 210 5.9% 90%;
-    --input: 210 5.9% 90%;
-    --ring: 215 90% 53%; /* Accent ring color */
+    --border: 240 10% 80%; /* Light indigo border */
+    --input: 240 10% 80%;
+    --ring: 240 80% 50%; /* Accent ring color */
     --radius: 0.5rem; /* Rounded corners */
   }
 
@@ -119,8 +119,8 @@ html {
     --popover: 20 14.3% 4.1%; /* Popover background dark */
     --popover-foreground: 60 9.1% 97.8%; /* Popover foreground light */
 
-    --primary: 215 90.2% 48.2%; /* Indigo primary color for dark mode */
-    --primary-foreground: 60 9.1% 97.8%; /* Light text on primary */
+    --primary: 265 90.2% 48.2%; /* Indigo primary color for dark mode */
+    --primary-foreground: 65 9.1% 97.8%; /* Light text on primary */
 
     --secondary: 210 10% 30%; /* Darker secondary indigo */
     --secondary-foreground: 60 9.1% 97.8%;
@@ -128,15 +128,15 @@ html {
     --muted: 210 8% 30%; /* Darker muted indigo */
     --muted-foreground: 215 5.4% 63.9%;
 
-    --accent: 210 8% 30%; /* Darker accent */
-    --accent-foreground: 215 9.1% 97.8%; /* Light accent foreground */
+    --accent: 240 50% 50%; /* Darker accent */
+    --accent-foreground: 240 100% 97%; /* Light text on accent color */
 
     --destructive: 0 72.2% 50.6%; /* Red for destructive actions */
-    --destructive-foreground: 60 9.1% 97.8%;
+    --destructive-foreground: 240 100% 97%;
 
-    --border: 210 10% 20%; /* Dark border color */
-    --input: 210 10% 20%;
-    --ring: 215 90.2% 48.2%; /* Ring accent for focus in dark mode */
+    --border: 240 10% 30%; /* Dark border color */
+    --input: 240 10% 30%;
+    --ring: 240 80% 50%; /* Accent ring for focus in dark mode */
   }
 }
 

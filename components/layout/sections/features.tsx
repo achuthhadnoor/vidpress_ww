@@ -7,43 +7,42 @@ interface FeaturesProps {
   title: string;
   description: string;
 }
-
 const featureList: FeaturesProps[] = [
   {
     icon: "TabletSmartphone",
-    title: "Mobile Friendly",
+    title: "Mobile-Optimized Videos",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam, consectetur.",
+      "Compress videos while maintaining quality, perfect for mobile viewing and sharing across devices.",
   },
   {
     icon: "BadgeCheck",
-    title: "Social Proof",
+    title: "Lossless Compression",
     description:
-      "Lorem ipsum dolor sit amet consectetur. Natus consectetur, odio ea accusamus aperiam.",
+      "Advanced compression algorithms that reduce file size without compromising video quality.",
   },
   {
     icon: "Goal",
-    title: "Targeted Content",
+    title: "Batch Processing(soon)",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. odio ea accusamus aperiam.",
+      "Process multiple videos simultaneously, saving time and maintaining consistent quality across files.",
   },
   {
     icon: "PictureInPicture",
-    title: "Strong Visuals",
+    title: "Format Flexibility",
     description:
-      "Lorem elit. A odio velit cum aliquam. Natus consectetur dolores, odio ea accusamus aperiam.",
+      "Support for multiple video formats including MP4, MOV, AVI, and more. Convert between formats effortlessly.",
   },
   {
     icon: "MousePointerClick",
-    title: "Clear CTA",
+    title: "Easy to Use",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing. odio ea accusamus consectetur.",
+      "Simple drag-and-drop interface makes video compression accessible to everyone, no technical expertise required.",
   },
   {
     icon: "Newspaper",
-    title: "Clear Headline",
+    title: "Custom Settings(soon)",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam. Natus consectetur.",
+      "Fine-tune compression settings to match your specific needs, from quick sharing to professional quality.",
   },
 ];
 
